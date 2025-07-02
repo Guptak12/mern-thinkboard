@@ -4,7 +4,7 @@ import cors from "cors";
 import path from "path";
 
 
-import rateLimiter from "../middleware/rateLimiter.js";
+import rateLimiter from "./middleware/rateLimiter.js";
 import notesRoutes from "./routes/notesRoutes.js";
 import { connectDB } from "./config/db.js";
 
